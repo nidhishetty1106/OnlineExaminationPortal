@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Personal Details</title>
+<style type="text/css">
+.one
+{
+color:white;
+font-size:25px;}
+label
+{
+font-size:15px;
+color:white;
+}
+.right
+{
+float:right;
+}
+.left
+{
+float:left;
+}
+.button {
+    background-color:DarkCyan;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 3px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	background-color:white;
+
+}
+
+input[type=number] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	background-color:white;
+}
+input[type=email] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	background-color:white;
+}
+textarea {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	background-color:white;
+}
+input[type=date] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	background-color:white;
+}
+</style>
+<script type="text/javascript">
+
+</script>
+</head>
+<body>
+<img class="right" src="C:\Users\Shivani Bonageri\Desktop\Notepad++\jee.gif" height="130" width="170"/>
+<img class="left" src="C:\Users\Shivani Bonageri\Desktop\Notepad++\jee.gif" height="130" width="170"/>
+<h1 style="text-align:center;color:blue;font-size=40px;font-family:Verdana;"><pre>JEE MAINS APPLICATION FORM
+2017</pre></h1>
+<h2 style="text-align:centre;color:blue;font-size=25px"><pre>                        CENTRAL BOARD OF SECONDARY EDUCATION</pre></h2>
+<form action="perdet.php" name="form"  method="POST" style="background-color:lightblue">
+<fieldset>
+<legend><p class="one"> PERSONAL DETAILS </p></legend>
+<br/>
+<label>FULL NAME:<br/><input type="text" name="name" id="name" size="30" required /></label>
+<br/>
+<label><pre/> DOB: <br/><input type="date" value="dob" name="dob" id="dob" min="1995-12-31" max="2002-12-31" required /><br/>
+<label>GENDER:<br/><pre>     <input type="radio" name="gender" id="gender" value="r1"/>MALE</pre><br/><pre>     <input type="radio" name="gender" id="gender" value="r2" required />FEMALE</label><pre>
+<br/>
+<label>FATHER'S NAME:<br/><input type="text" name="fname" id="fname" required /></label>
+<br/>
+<label>MOTHER'S NAME:<br/><input type="text" name="mname" id="mname" required /></label>
+<br/>
+<label>CONTACT NUMBER:<br/><input type="number" name="pno" id="pno"  required /></label>
+<br/>
+<label>EMAIL ID:<br/><input type="email" name="mail" id="mail" required /></label>
+<br/>
+<label>AADHAR NUMBER :<br/> <input type="number" name="ano" id="ano" maxlength="20" size="20"/><br/>
+<p>ADDRESS:</p><br/><textarea name="add" id="add" rows="3" cols="40" required /></textarea>
+</fieldset>
+<pre>                                                                       <button class="button" >SUBMIT </button>   <button class="button">RESET</button> </pre>
+ 
+
+
+</body>
+</html>
